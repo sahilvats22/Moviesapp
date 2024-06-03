@@ -43,7 +43,6 @@ Note that Firebase is only required for Google authentication. If you are not us
 - Go to the Firebase Console and create a new app.
 - After creating the app, build a web app by clicking "Add App" and following the instructions.
 
-![Firebase Add App Screenshot](https://user-images.githubusercontent.com/87109400/231569204-445d8007-fe75-4012-a21b-a71f4f4bc697.png)
 
 ![Firebase Build App Screenshot](https://user-images.githubusercontent.com/87109400/231568774-1ea09ada-34b8-4035-80d4-90ac79c1c8ed.png)
 
@@ -62,7 +61,7 @@ Open your code editor (such as VS Code) and navigate to the project directory. T
 ```bash
 npm run dev
 ```
-This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
+This will start the application. Open a web browser and navigate to http://localhost:5173 to access the website.
 
 Note: Ensure that you have carefully added the TMDB API key and Firebase authentication configuration to your .env file. If the .env file is not working, add all the API keys and configuration manually.
 
