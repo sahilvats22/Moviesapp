@@ -5,7 +5,7 @@
 - Trending Movies: displays a section for trending movies
 - Upcoming movies: displays a section for upcoming movies
 - Movie Details: users can view detailed information about each movie
-- Bookmark Movies: users can bookmark their favorite movies for later viewing
+- List of Movies: users can make list of their favorite movies for later viewing
 - Google Authentication: users can sign in using their Google account
 
 <hr/>
