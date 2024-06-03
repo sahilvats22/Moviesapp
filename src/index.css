@@ -3,70 +3,83 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  scroll-behavior: smooth;
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color:  #10141e;
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f1217; /* Darker background color */
+  color: #fff; /* Text color */
 }
 
-.shadow{
-    box-shadow: inset 0px -20px 20px 20px #0000008c;
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.shadowbackdrop{
-  box-shadow: inset 0px -90px 30px 0px #0000008c;
+/* Shadows */
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Updated shadow style */
 }
 
-.img{
-    transition: 0.5s ease-in-out;
+.shadowbackdrop {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Updated shadow style */
 }
 
-.card:hover .img{
-    transform: scale(1.1);
+/* Images */
+.img {
+  transition: transform 0.5s ease-in-out;
 }
 
-.active{
-    background-color: white;
-    color: black;
-    /* border: 1px solid white; */
+.card:hover .img {
+  transform: scale(1.1);
 }
 
+/* Active state */
+.active {
+  background-color: #fff;
+  color: #000;
+}
 
-/* loader */
-
+/* Loader */
 .loader {
-    width: 48px;
-    height: 48px;
-    display: inline-block;
-    position: relative;
-  }
-  .loader::after,
-  .loader::before {
-    content: '';  
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: #FFF;
-    position: absolute;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    animation: animloader 2s ease-in-out infinite;
-  }
-  .loader::after {
-    animation-delay: 1s;
-  }
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+}
+.loader::after,
+.loader::before {
+  content: '';
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  animation: animloader 2s ease-in-out infinite;
+}
+.loader::after {
+  animation-delay: 1s;
+}
 
 @keyframes animloader {
-    0%, 100% {
-      transform: scale(0);
-      opacity: 1;
-}
-    50% {
-      transform: scale(1);
-      opacity: 0;
-}
+  0%, 100% {
+    transform: scale(0);
+    opacity: 1;
   }
-  
+  50% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
