@@ -67,4 +67,6 @@ Note: Ensure that you have carefully added the TMDB API key and Firebase authent
 
 <hr/>
 
+## Note:
 
+Use a VPN if the movie data is not fetched. Additionally, Firebase authentication works properly when you complete all the setup steps correctly.
