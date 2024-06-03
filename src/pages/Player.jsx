@@ -29,7 +29,7 @@ const Player = () => {
       }, []);
       
     
-    document.title = `BlueBird Movies | ${moviedet.title}`
+    document.title = `${moviedet.title}`
 
     return (
       <>

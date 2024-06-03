@@ -22,7 +22,7 @@ function Trending() {
     return (
         <>
             <Helmet>
-                <title>BlueBird Movies | Trending</title>
+                <title>Trending</title>
             </Helmet>
 
             <div className='w-full bg-gradient-to-r from-[#0f1217] to-[#10141e] md:p-10 mb-20 md:mb-0'>

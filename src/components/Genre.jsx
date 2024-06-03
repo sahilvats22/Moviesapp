@@ -12,7 +12,7 @@ function Genre() {
     return (
         <>
             <Helmet>
-                <title>BlueBird Movies | Genres</title>
+                <title>Genres</title>
             </Helmet>
 
             <div className='flex flex-wrap justify-center px-4 py-4'>

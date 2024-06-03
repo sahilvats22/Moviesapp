@@ -41,7 +41,7 @@ function Searchbar() {
     return (
         <>
             <Helmet>
-                <title>BlueBird Movies</title>
+                <title>Movies</title>
             </Helmet>
 
             <div className="searchbar-container w-full bg-gradient-to-r from-fuchsia-500 to-cyan-500 h-[10rem] md:h-[12rem]">
